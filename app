@@ -42,19 +42,19 @@
 # https://www.exratione.com/2011/07/running-a-nodejs-server-as-a-service-using-forever/
 #
 # An application name to display in echo text.
-# NAME="My Application"
+# NAME="app"
 # The full path to the directory containing the node and forever binaries.
-# NODE_BIN_DIR=/home/node/local/node/bin
+# NODE_BIN_DIR=/usr/bin
 # Set the NODE_PATH to the Node.js main node_modules directory.
-# NODE_PATH=/home/node/local/node/lib/node_modules
+# NODE_PATH=/usr/lib/nodejs
 # The directory containing the application start Javascript file.
-# APPLICATION_DIRECTORY=/home/node/my-application
+# APPLICATION_DIRECTORY=/opt/app/perpetuall-code
 # The application start Javascript filename.
-# APPLICATION_START=start-my-application.js
+# APPLICATION_START=app.js
 # Process ID file path.
-# PIDFILE=/var/run/my-application.pid
+# PIDFILE=/var/run/app.pid
 # Log file path.
-# LOGFILE=/var/log/my-application.log
+# LOGFILE=/var/log/app.log
 #
 NAME="app"
 NODE_BIN_DIR=/usr/bin
