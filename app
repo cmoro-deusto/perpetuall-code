@@ -56,7 +56,7 @@
 # Log file path.
 # LOGFILE=/var/log/my-application.log
 #
-NAME= "Perpetuall App"
+NAME="app"
 NODE_BIN_DIR=/usr/bin
 NODE_PATH=/usr/lib/nodejs
 APPLICATION_DIRECTORY=/opt/app/perpetuall-code
